@@ -10,8 +10,8 @@ import pickle
 import numpy as np
 
 # import the model
-pipe = pickle.load(open('C:/Users/Appu/Desktop/Streamlit Test/Best Code Streamlit/Z Test Programs/1000 companies/CompanyF/pipe.pkl','rb'))
-df = pickle.load(open('C:/Users/Appu/Desktop/Streamlit Test/Best Code Streamlit/Z Test Programs/1000 companies/CompanyF/df.pkl','rb'))
+pipe = pickle.load(open('pipe.pkl','rb'))
+df = pickle.load(open('df.pkl','rb'))
 
 
 def Loan_prediction(input_data) :
